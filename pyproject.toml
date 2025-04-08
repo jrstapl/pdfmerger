@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pdfmerger"
+version = "0.1.0"
+description = "A simple script to mergs pdfs with Python and PyPDF"
+authors = ["jrstapl <joshrstapleton@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+pypdf = "^5.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+MergePDF="pdfmerger.pdfmerger:main"
