@@ -31,7 +31,7 @@ The pyproject.toml file includes a script to run this project as CLI. The list o
 ### Arguments
 
 
-|Argument&nbsp;           |Abbreviation&nbsp;   |Description&nbsp;    |
+|<div style="width:80px" /> Argument           |<div style="width:90px" />Abbreviation   |Description   |
 |:------------------|:---------------:|:---------------|
 |--filenames|-f             |Individual filenames, specified multiple times, once for each file|
 |--directory    |-d             |Directory to be searched for *.pdf files. Can be modified with --recursive [-r] to search all subdirectories|
